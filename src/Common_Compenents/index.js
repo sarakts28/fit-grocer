@@ -1,3 +1,4 @@
 import BottomFooter from "./BottomFooter";
 import Button from "./Button";
-export  { Button,BottomFooter};
+import DishCard from "./DishCard";
+export  { Button,BottomFooter, DishCard};

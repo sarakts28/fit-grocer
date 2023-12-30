@@ -1,7 +1,4 @@
 .footerStyle{
-    /* position: fixed; */
-    /* bottom: 0; */
-    /* left: 0; */
     width: 100%;
     background:#F0F4FC;
     display: flex;
@@ -10,12 +7,11 @@
 }
 
 .footerTextContainer{
-display: flex;
-flex-direction: column;
-border: 1px solid red;
-font-family: "inter";
-justify-content: center;
-
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    font-family: "Inter";
+    justify-content: center;
 }
 
 .footertext{
@@ -24,5 +20,4 @@ justify-content: center;
 
 .footerAmount{
     font-size: 30px;
-
 }

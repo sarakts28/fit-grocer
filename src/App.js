@@ -1,12 +1,13 @@
 
-import { BottomFooter } from "./Common_Compenents";
+import { Images } from "./Assest/Icons";
+import { DishCard } from "./Common_Compenents";
 
 function App() {
   return (
    <>
 
 <div style={{width: "25%"}}>
-   <BottomFooter footerText={"Total"} footerAmount={"27.15"}/>
+    <DishCard imageSrc={Images.imageDish1}/>
    </div>
    </>
   );
