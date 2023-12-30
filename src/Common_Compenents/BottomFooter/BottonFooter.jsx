@@ -5,7 +5,6 @@ import ButtonComponent from '../Button/Button';
 const { Footer } = Layout;
 
 export default function BottomFooter(props) {
-  console.log(props.footerAmount);
   return (
     <div>
       <Footer
@@ -26,7 +25,10 @@ export default function BottomFooter(props) {
           ''
         )}
 
-        <ButtonComponent buttonText={'Checkout'} />
+        <ButtonComponent
+          buttonText={props.buttonText}
+          buttonClick={props.buttonClick}
+        />
       </Footer>
     </div>
   );

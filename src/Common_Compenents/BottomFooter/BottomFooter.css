@@ -3,13 +3,12 @@
     background:#F0F4FC;
     display: flex;
     align-items: center;
-    padding: 5%;
+    padding: 2%;
 }
 
 .footerTextContainer{
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     font-family: "Inter";
     justify-content: center;
 }

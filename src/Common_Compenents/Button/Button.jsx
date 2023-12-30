@@ -2,7 +2,7 @@ import { Button, ConfigProvider } from 'antd';
 import React from 'react';
 import './Button.css';
 
-export default function ButtonComponent({ buttonText }) {
+export default function ButtonComponent({ buttonText, buttonClick }) {
   return (
     <div>
       <ConfigProvider
@@ -14,7 +14,7 @@ export default function ButtonComponent({ buttonText }) {
           },
         }}
       >
-        <Button shape='round' className='buttonStyle'>
+        <Button shape='round' className='buttonStyle' onClick={buttonClick}>
           {buttonText}
         </Button>
       </ConfigProvider>
