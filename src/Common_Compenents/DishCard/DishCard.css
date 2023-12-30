@@ -10,6 +10,7 @@
 .cardDetailContainer{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin:0% 4%;
     font-size: 16px;
     font-family: 'Poppins';
@@ -27,7 +28,7 @@
 .cardQuantityContainer{
     display: flex;
     justify-content: space-between;
-    padding-top: 9%;  
+    align-items: center;
 }
 
 .cardQuantityStyle{

@@ -1,15 +1,13 @@
-
-import { Images } from "./Assest/Icons";
-import { DishCard } from "./Common_Compenents";
+// import { Images } from './Assest/Icons';
+// import { DishCard } from "./Common_Compenents";
 
 function App() {
   return (
-   <>
-
-<div style={{width: "25%"}}>
-    <DishCard imageSrc={Images.imageDish1}/>
-   </div>
-   </>
+    <>
+      <div>
+        {/* <DishCard imageSrc={Images.imageDish1} dishName={"egg fried g mushroom"} dishAmount={"54.25"} dishQuantity={2}/> */}
+      </div>
+    </>
   );
 }
 
