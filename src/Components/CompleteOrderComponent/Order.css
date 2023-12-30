@@ -1,0 +1,77 @@
+.orderMainContainer{
+    background-color: #F0F4FC;
+    width: 100%;
+    min-height: 100vh; 
+    overflow: hidden; 
+}
+
+.orderHeaderElements{
+    display: flex;
+    align-items: center;
+    padding:  2%;
+}
+
+.orderSubElement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.orderTextStyle{
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight: 900;
+    text-align: center;
+    width: 80%;
+}
+
+.orderDetailTextStyle{
+    font-family: 'Poppins';
+    font-size: 24px;
+    text-align: center;
+    color: #A1A1A1;
+    padding: 0% 4%;
+
+}
+
+.orderImageStyle{
+    width: 580px !important;
+    height: 580px !important;
+}
+
+@media screen and (min-width: 300px) and (max-width: 520px){
+    .orderSubElement{
+        margin-top: 10%;
+    }
+
+    .orderTextStyle{
+        font-size: 25px;
+    }
+
+    .orderImageStyle{
+        width: 255px !important;
+        height: 328px !important;
+    }
+
+    .orderDetailTextStyle{
+        font-size: 16px;
+        padding: 15% 4%;
+
+    }
+}
+
+@media screen and (min-width: 521px) and (max-width: 720px){
+
+    .orderTextStyle{
+        font-size: 32px;
+    }
+
+    .orderImageStyle{
+        width: 400px !important;
+        height: 400px !important;
+    }
+
+    
+}

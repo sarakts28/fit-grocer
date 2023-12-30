@@ -1,7 +1,7 @@
 .cardStyle{
     background-color: #FFFFFF;
     display: flex;
-    width: 370px;
+    width: 100%;
     align-items: center;
     border-color: #FFFFFF;
     box-shadow: 0px 2px 20px 0px #0000000D;
@@ -12,11 +12,10 @@
     flex-direction: column;
     justify-content: space-between;
     margin:0% 4%;
-    font-size: 16px;
+    font-size: 22px;
     font-family: 'Poppins';
     font-weight: 600;
-    width: 255px;
-
+    width: 100%; 
 }
 
 .imageContainer{
@@ -34,4 +33,18 @@
 .cardQuantityStyle{
     color: #A1A1A1;
     font-weight: 400;
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px){
+.cardDetailContainer{
+    font-size: 14px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 720px){
+    .cardDetailContainer{
+        font-size: 16px;
+    }
+
+}
+    
 }
