@@ -1,24 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+
+import { BottomFooter } from "./Common_Compenents";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+
+<div style={{width: "25%"}}>
+   <BottomFooter footerText={"Total"} footerAmount={"27.15"}/>
+   </div>
+   </>
   );
 }
 

@@ -1,0 +1,8 @@
+.buttonStyle{
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    height: auto;
+    line-height: 37.5px;
+}
