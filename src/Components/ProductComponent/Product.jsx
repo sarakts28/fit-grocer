@@ -19,16 +19,16 @@ export default function Product() {
       <div className='productSubContainer'>
         <div className='productHeaderElements'>
           <div>
-            <Image src={Images.leftArrow} preview={false} onClick={() => {}} />
-          </div>
-          <div>
             <Image
-              src={Images.heart}
+              src={Images.leftArrow}
               preview={false}
               onClick={() => {
                 navigate(-1);
               }}
             />
+          </div>
+          <div>
+            <Image src={Images.heart} preview={false} onClick={() => {}} />
           </div>
         </div>
 

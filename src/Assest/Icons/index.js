@@ -13,6 +13,13 @@ import minusSign from './minuscirlce.svg';
 import pay1 from './Rectangle 52.svg';
 import pay2 from './Rectangle 53.svg';
 import pay3 from './Rectangle 54.svg';
+import wavingHand from './waving hand_.svg';
+import search from './Vector.svg';
+import dishPic from './pic2.svg';
+import dishPic2 from './pic.svg';
+import dish7 from './Rectangle 36.svg';
+import dish9 from './Rectangle 39.svg';
+import dish11 from './Rectangle 7.svg';
 
 export const Images = {
   imageDish1: dish1,
@@ -20,6 +27,12 @@ export const Images = {
   imageDish3: dish3,
   imageDish4: dish4,
   imageDish5: dish5,
+  imageDish6: dishPic,
+  imageDish7: dishPic2,
+  imageDish8: dish7,
+  imageDish9: dish9,
+  imageDish11: dish11,
+
   imageHalfDish: dish6,
   rider: rider,
   leftArrow: leftArrow,
@@ -30,4 +43,6 @@ export const Images = {
   payment1: pay1,
   payment2: pay2,
   payment3: pay3,
+  wavingHand: wavingHand,
+  searchIcon: search,
 };

@@ -1,4 +1,5 @@
-import BottomFooter from "./BottomFooter";
-import Button from "./Button";
-import DishCard from "./DishCard";
-export  { Button,BottomFooter, DishCard};
+import BottomFooter from './BottomFooter';
+import Button from './Button';
+import DishCard from './DishCard';
+import ProductCard from './ProductCard';
+export { Button, BottomFooter, DishCard, ProductCard };

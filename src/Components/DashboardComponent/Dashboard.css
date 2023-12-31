@@ -1,0 +1,108 @@
+.dashMainContainer{
+    background-color: #F0F4FC;
+    width: 100%;
+    min-height: 100vh; 
+    overflow: hidden; 
+
+}
+
+.dashHeaderElements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+
+.dashHeaderStyle{
+    display: flex;
+    flex-direction: column;
+}
+
+.dashNameStyle{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;    
+}
+
+.dashSubNameStyle{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;    
+}
+
+.dashCatStyle{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    align-items: center; 
+}
+
+.dashSeeStyle{
+    color: #E74C1B;
+}
+
+.dashProductContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 400px;
+    overflow: auto;
+    padding: 0% 2%;
+}
+
+/* category card */
+
+.categoryContainer {
+    padding: 0% 2%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .catgoryCardContainer {
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px 0px #0000000D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catgoryTextStyle{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+    padding: 15px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 520px){
+    .dashNameStyle{
+        font-size: 25px;
+    }
+    
+    .dashSubNameStyle{
+        font-size: 15px;  
+    }
+
+    .dashCatStyle{
+        font-size: 16px;
+        padding: 8% 0%;
+    }
+
+    .catgoryCardContainer {
+        width: 30%;}
+
+        .catgoryTextStyle{
+            font-family: Poppins;
+            font-size: 15px;
+            font-weight: 400;
+            text-align: left;
+            padding: 10px;
+        }
+}
