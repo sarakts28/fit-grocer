@@ -80,6 +80,20 @@
     text-align: left;
     padding: 15px;
 }
+.mobMenuContainer{
+    display: none;
+}
+
+.mobMenu{
+    display: none;
+}
+
+.desktopMenu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2%;
+}
 
 @media screen and (min-width: 300px) and (max-width: 520px){
     .dashNameStyle{
@@ -98,11 +112,51 @@
     .catgoryCardContainer {
         width: 30%;}
 
-        .catgoryTextStyle{
-            font-family: Poppins;
-            font-size: 15px;
-            font-weight: 400;
-            text-align: left;
-            padding: 10px;
-        }
+    .catgoryTextStyle{
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .mobMenuContainer{
+        display: flex;
+        justify-content: space-between;
+        /* margin: 120px 20px 20px; */
+        align-items: center;
+    }
+
+    .mobMenu{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 0px 20px;
+        height: 20vh;
+    }
+
+    .desktopMenu{
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 521px) and (max-width: 820px){
+    .mobMenu{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 0px 20px;
+        height: 20vh;
+    }
+      .mobMenuContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .desktopMenu{
+        display: none;
+    }
+
 }

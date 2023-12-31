@@ -20,6 +20,10 @@ import dishPic2 from './pic.svg';
 import dish7 from './Rectangle 36.svg';
 import dish9 from './Rectangle 39.svg';
 import dish11 from './Rectangle 7.svg';
+import icon1 from './Vector (1).svg';
+import icon2 from './Group 11.svg';
+import icon3 from './profilecircle.svg';
+import icon4 from './diagram.svg';
 
 export const Images = {
   imageDish1: dish1,
@@ -32,7 +36,10 @@ export const Images = {
   imageDish8: dish7,
   imageDish9: dish9,
   imageDish11: dish11,
-
+  icon1: icon1,
+  icon2: icon2,
+  icon3: icon3,
+  icon4: icon4,
   imageHalfDish: dish6,
   rider: rider,
   leftArrow: leftArrow,
