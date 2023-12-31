@@ -1,0 +1,22 @@
+.footerStyle{
+    width: 100%;
+    background:#F0F4FC;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+
+.footerTextContainer{
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter";
+    justify-content: center;
+}
+
+.footertext{
+    font-size: 18px;
+}
+
+.footerAmount{
+    font-size: 30px;
+}

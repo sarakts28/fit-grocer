@@ -1,0 +1,133 @@
+.productMainContainer{
+    background-color: #F0F4FC;
+    width: 100%;
+    min-height: 100vh; 
+    overflow: hidden; 
+
+}
+
+.productHeaderElements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.productSubContainer{
+    height: 82vh;
+    background-color: white;
+    border-radius: 0px  0px  80px 80px;
+    padding:  2%;
+
+}
+
+.productTextContainer{
+    font-family: "Poppins";
+    font-weight: 600;
+    padding: 2% 0%;
+    font-size: 45px;
+}
+
+.productSubText{
+    padding: 0.25% 0%;
+    font-size: 30px;
+    color: #A1A1A1;
+}
+.productRatingContainer{
+    display: flex;
+    align-items: center;
+}
+
+.productRatingText{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.productQuantityContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.productQuantityDetail{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.productImageContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 50%;
+}
+
+.productImageStyle{
+    margin-top: -40px;
+    margin-left: 40px;
+}
+
+.productDescriptionStyle{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Poppins";
+
+}
+
+.productDescriptionContainer{
+    margin-top: -5%;
+}
+
+.productDescriptionDetailsStyle{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin-top: 5px;
+}
+
+.productNumStyle{
+    font-size: 30px;
+    font-family: "inter";
+    font-weight: 400;
+}
+
+@media screen and (min-width: 300px) and (max-width: 520px){
+
+    .productSubContainer{
+        height: 75vh;
+        margin-bottom: 40px;
+
+    }
+    .productTextContainer{
+        padding: 4% 2%;
+        font-size: 25px;
+
+    }
+    .productSubText{
+        padding: 1% 0%;
+        font-size: 18px;
+    }
+    .productRatingText{
+        font-size: 16px;
+        margin-left: 5px;
+
+    }
+    .productImageStyle{
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    .productDescriptionStyle{
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    .productDescriptionDetailsStyle{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,15 @@
+.buttonStyle{
+    width: 100%;
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 30px;
+    height: auto;
+    padding:12px 24px 12px 24px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px){
+    .buttonStyle{
+        font-size: 25px;
+    }
+    
+}
