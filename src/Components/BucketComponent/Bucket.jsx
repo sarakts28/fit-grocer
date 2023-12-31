@@ -3,7 +3,7 @@ import './Bucket.css';
 import { Image } from 'antd';
 import { Images } from '../../Assest/Icons';
 import { BottomFooter, DishCard } from '../../Common_Compenents';
-
+import { useNavigate } from 'react-router-dom';
 export default function Bucket() {
   const dishList = [
     {
@@ -38,15 +38,23 @@ export default function Bucket() {
     },
   ];
 
+  const navigate = useNavigate();
+
   const buttonClick = () => {
-    console.log('Working');
+    navigate('/payment');
   };
 
   return (
     <div className='bucketMainContainer'>
       <div className='bucketHeaderElements'>
         <div>
-          <Image src={Images.leftArrow} preview={false} onClick={() => {}} />
+          <Image
+            src={Images.leftArrow}
+            preview={false}
+            onClick={() => {
+              navigate(-1);
+            }}
+          />
         </div>
         <div className='bucketHeader'>My Bucket</div>
       </div>

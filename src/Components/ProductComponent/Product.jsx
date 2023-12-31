@@ -3,11 +3,15 @@ import './Product.css';
 import { BottomFooter } from '../../Common_Compenents';
 import { Image } from 'antd';
 import { Images } from '../../Assest/Icons';
+import { useNavigate } from 'react-router-dom';
 
 export default function Product() {
   const [quantity, setQuantity] = useState(1);
+
+  const navigate = useNavigate();
+
   const buttonClick = () => {
-    console.log('Working');
+    navigate('/bucket');
   };
 
   return (
@@ -18,7 +22,13 @@ export default function Product() {
             <Image src={Images.leftArrow} preview={false} onClick={() => {}} />
           </div>
           <div>
-            <Image src={Images.heart} preview={false} onClick={() => {}} />
+            <Image
+              src={Images.heart}
+              preview={false}
+              onClick={() => {
+                navigate(-1);
+              }}
+            />
           </div>
         </div>
 

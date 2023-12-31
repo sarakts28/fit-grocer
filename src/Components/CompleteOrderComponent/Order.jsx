@@ -3,16 +3,25 @@ import './Order.css';
 import { Image } from 'antd';
 import { Images } from '../../Assest/Icons';
 import { BottomFooter } from '../../Common_Compenents';
+import { useNavigate } from 'react-router-dom';
 
 export default function Order() {
+  const navigate = useNavigate();
+
   const buttonClick = () => {
-    console.log('Working');
+    navigate('/home');
   };
 
   return (
     <div className='orderMainContainer'>
       <div className='orderHeaderElements'>
-        <Image src={Images.leftArrow} preview={false} onClick={() => {}} />
+        <Image
+          src={Images.leftArrow}
+          preview={false}
+          onClick={() => {
+            navigate(-1);
+          }}
+        />
       </div>
       <div className='orderSubElement'>
         <div className='orderTextStyle'>
