@@ -7,3 +7,6 @@ A task for the interview
 3. run using npm start
 
 # all arrow buttons are working and all text buttons are working
+
+# developed link 
+https://fit-grocer-git-develop-saras-projects-4c338acb.vercel.app/
