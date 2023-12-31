@@ -1,12 +1,20 @@
-// import { Images } from './Assest/Icons';
-// import { DishCard } from "./Common_Compenents";
-import { Payment } from './Components';
+import { Bucket, Order, Payment, Product, Dashboard } from './Components';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <>
-      <div>
-        <Payment />
-      </div>
+      <Router>
+        <div>
+          <Routes>
+            <Route path='/' exact element={<Dashboard />} />
+            <Route path='/home' exact element={<Dashboard />} />
+            <Route path='/order' exact element={<Order />} />
+            <Route path='/payment' element={<Payment />} />
+            <Route path='/bucket' element={<Bucket />} />
+            <Route path='/product' element={<Product />} />
+          </Routes>
+        </div>
+      </Router>
     </>
   );
 }

@@ -4,10 +4,13 @@ import { Image } from 'antd';
 import { Images } from '../../Assest/Icons';
 import { BottomFooter } from '../../Common_Compenents';
 import PaymentCard from './PaymentCard';
+import { useNavigate } from 'react-router-dom';
 
 export default function Payment() {
+  const navigate = useNavigate();
+
   const buttonClick = () => {
-    console.log('Working');
+    navigate('/order');
   };
 
   const orderList = [
@@ -22,7 +25,13 @@ export default function Payment() {
     <div className='paymentMainContainer'>
       <div className='paymentHeaderElements'>
         <div>
-          <Image src={Images.leftArrow} preview={false} onClick={() => {}} />
+          <Image
+            src={Images.leftArrow}
+            preview={false}
+            onClick={() => {
+              navigate(-1);
+            }}
+          />
         </div>
         <div className='paymentHeader'>Checkout</div>
       </div>
@@ -53,7 +62,7 @@ export default function Payment() {
         <BottomFooter
           footerText={'Total'}
           footerAmount={133.03}
-          buttonText={'Checkout'}
+          buttonText={'Pay Now'}
           buttonClick={buttonClick}
         />
       </div>
