@@ -10,6 +10,9 @@ import heart from './heart.svg';
 import filledStart from './Star1.svg';
 import addSign from './addcircle.svg';
 import minusSign from './minuscirlce.svg';
+import pay1 from './Rectangle 52.svg';
+import pay2 from './Rectangle 53.svg';
+import pay3 from './Rectangle 54.svg';
 
 export const Images = {
   imageDish1: dish1,
@@ -24,4 +27,7 @@ export const Images = {
   filledStart: filledStart,
   minusSign: minusSign,
   addSign: addSign,
+  payment1: pay1,
+  payment2: pay2,
+  payment3: pay3,
 };
