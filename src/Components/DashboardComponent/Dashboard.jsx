@@ -35,6 +35,28 @@ export default function Dashboard() {
     },
   ];
 
+  const renderMobMenuBar = () => {
+    return (
+      <div className='mobMenu'>
+        <div className='mobMenuContainer'>
+          <Image src={Images.icon1} />
+          <Image src={Images.heart} />
+          <Image src={Images.icon2} />
+          <Image src={Images.icon4} />
+          <Image src={Images.icon3} />
+        </div>
+      </div>
+    );
+  };
+
+  const renderMenuBar = () => {
+    return (
+      <div className='desktopMenu'>
+        <Image src={Images.icon3} width={50} height={50} />
+      </div>
+    );
+  };
+
   useEffect(() => {
     setWindowSize(window.innerWidth);
   }, [windowSize]);
@@ -73,6 +95,9 @@ export default function Dashboard() {
           return <ProductCard item={item} />;
         })}
       </div>
+
+      {renderMobMenuBar()}
+      {renderMenuBar()}
     </div>
   );
 }
