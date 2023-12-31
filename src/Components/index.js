@@ -1,3 +1,5 @@
 import Bucket from './BucketComponent';
 import Order from './CompleteOrderComponent';
-export { Bucket, Order };
+import Product from './ProductComponent';
+import Payment from './PayComponent';
+export { Bucket, Order, Product, Payment };
