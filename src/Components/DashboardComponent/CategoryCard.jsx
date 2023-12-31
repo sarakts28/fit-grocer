@@ -3,7 +3,6 @@ import React from 'react';
 import { Images } from '../../Assest/Icons';
 
 export default function CategoryCard({ windowSize }) {
-  console.log(windowSize);
   var randomColor = require('randomcolor');
   const category = [
     {
